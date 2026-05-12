@@ -8,7 +8,6 @@ body {
 
 .titulo-projetos{
     text-align: center;
-    font-size: 30px;
 }
 
 
@@ -106,4 +105,29 @@ section {
 
 #especializacoes {
     text-align: center;
+}
+
+#ferramentas {
+    text-align: center;
+}
+
+.ferramentas-grid{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card-ferramentas {
+    background-color: #111;
+    padding: 20px;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.card-ferramentas:hover {
+    transform: translateY(-5px);
+}
+.card-ferramentas img {
+    width: 60px;
 }
