@@ -11,21 +11,12 @@ body {
     font-size: 30px;
 }
 
-.topo{
-    background-color: #111;
-    padding: 20px;
-    border-radius: 10px;
-    transition: 0.3s;
-}
-
-.topo:hover{
-    transform: translateY(-5px);
-}
 
 .projetos-grid {
     display: flex;
     gap: 20px;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 .card {
@@ -53,7 +44,6 @@ body {
     align-items: center;
     justify-content: center;
     text-align: center;
-    min-width: 80vh;
 }
 
 /* Links*/
