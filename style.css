@@ -72,16 +72,10 @@ body {
     
 }
 
-
-.botao-email {
-    display: inline-block;
-    background-color: white;
-    color: black;
+.email-contato{
+    text-align: center;
+    color: white;
     text-decoration: none;
-    padding: 12px 24px;
-    border-radius: 8px;
-    margin-top: 20px;
-    transition: 0.3s;
 }
 
 .rodape {
