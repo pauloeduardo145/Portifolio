@@ -139,3 +139,29 @@ section {
 .card-ferramentas img {
     width: 60px;
 }
+.github{
+
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    width: 65px;
+    height: 65px;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 34px;
+    text-decoration: none;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+    transition: 0.3s;
+    z-index: 1000;
+
+}
+
+.github:hover{
+
+    transform: scale(1.1);
+
+}
